@@ -33,3 +33,11 @@ Server side (python & RPI)
   o	Also have our model class a bit more abstract so that we can incorporate different models with different inputs /outputs 
   o	Differrrent model? Looking at yolov8 using coral here https://github.com/ultralytics/ultralytics/issues/4089 
 
+Known issues 
+	App  Net Maui 
+•	Configure the send image button when configuring MQTT connection 
+•	The stream button only works on the initial press subsequent clicks fails to display it
+•	Updating the config erases the previous log data 
+•	After the stream button is pressed and the view stream page is left its hard to determine if the app is still connected to the stream. 
+•	Stream and photos display bounding boxes not specified in selected labels (in config) 
+
