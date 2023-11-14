@@ -1,0 +1,10 @@
+﻿{
+  "ServerName": "DefaultServer(Local Host)",
+  "IPAddress": "192.168.3.2",
+  "VideoIPAddress": "192.168.3.2",
+  "PortNumber": "8080",
+  "SelectedLabels": [ "person" ],
+  "AvailableLabels": [ "person", "dog", "couch", "cellphone", "bench" ],
+  "SubscriptionTopics": [ "vehicle/detections", "vehicle/image" ],
+  "ConfidenceThreshold": 0.2
+}
