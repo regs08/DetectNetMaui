@@ -13,7 +13,7 @@ App side (Net Maui (c#))
 
 DONE Work in the Model-View-ViewModel architecture. DONE
 •	Look into best practices, folder organization, passing in services or view models to views?
-•	Is there a way to add a install the nuget packages and system settings? Something similar to pip in python? 
+•	Is there a way to add a install the nuget packages and system settings? Something similar to pip -r install requirements.txt in python? 
 •	DONE Change configure connection process DONE
 
 1)	DONE Connect to mqtt DONE
@@ -28,7 +28,7 @@ o	Have a camera interface class that can display simple streams to test camera a
 o	DONE MQTT client to comply with testing the connection to the app DONE
 o	DONE Will have two separate python files along the lines of test_stream and test_mqtt DONE Note mqtt client is separated in the app so we can test connectivity separately DONE
 •	Config creation
-o	Seems easier to send the config to the app instead of having them be created by the user or stored locally on the app. 
+o	Send the config to the app instead of having them be created by the user or stored locally on the app. 
 o	Also have the ability to select different models. 
 •	Models: 
 o	Train in the vineyard specific model 
@@ -37,7 +37,7 @@ o	Differrrent model? Looking at yolov8 using coral here https://github.com/ultra
 
 Known issues 
 	App  Net Maui 
-•	Loading logs is leading to a crash. Will need to separate the log receiving logiv and display, I think for now the same var is handling both 
-•	The toggle stream is working but inconsistently. Resource issue? 
+•	Loading logs is leading to a crash. Will need to separate the log receiving log and display, I think for now the same var is handling both 
+•	The toggle stream is working but inconsistently. Resource issue? Partial done works better with running the python script with gunicorn 
 •	The display photos page is displaying the test photo 
-•	Stream and photos display bounding boxes not specified in selected labels (in config) 
+•	Stream and photos displaying bounding boxes not specified in selected labels (in config) 
