@@ -23,6 +23,7 @@ DONE Work in the Model-View-ViewModel architecture. DONE
 
 Server side (python & RPI) 
 
+shane was here
 •	Separate the camera interface (Open CV), MQTT from the model 
 o	Have a camera interface class that can display simple streams to test camera and connectivity 
 o	DONE MQTT client to comply with testing the connection to the app DONE
